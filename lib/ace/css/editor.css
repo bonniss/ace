@@ -5,7 +5,6 @@
     direction: ltr;
     text-align: left;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    contain: content;
 }
 
 .ace_scroller {
@@ -193,10 +192,6 @@
 
 .ace_text-layer {
     font: inherit !important;
-}
-
-.ace_text-layer div {
-    contain: strict;
 }
 
 .ace_cjk {
